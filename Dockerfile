@@ -1,4 +1,4 @@
-FROM openjdk:11
+FROM openjdk:17-jdk-slim
 
 COPY target/SSAWebApi.jar /usr/app/
 
